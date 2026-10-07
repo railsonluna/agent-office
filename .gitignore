@@ -1,0 +1,7 @@
+server.log
+*.log
+*.orig
+*.bak*
+*.pre-*
+node_modules/
+.DS_Store

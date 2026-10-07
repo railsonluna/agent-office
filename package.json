@@ -1,0 +1,15 @@
+{
+  "name": "agent-office",
+  "version": "0.8.0",
+  "description": "Escritório animado que mostra teus agentes do Claude Code trabalhando, via hooks",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "hooks:on": "node install.js",
+    "hooks:off": "node install.js --uninstall",
+    "test": "node tests/flow.test.js && node tests/server.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
